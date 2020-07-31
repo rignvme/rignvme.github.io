@@ -13,13 +13,11 @@ $('body').terminal({
         this.echo('Hola, ' + what +
                   '. Bienvenido/a a mi terminal.');
     }
-    ls: function(what) {
-        this.echo("curriculum.pdf          proyectos          sobreMi");
+},{
+    test: function(what) {
+        this.echo('curriculum.pdf          proyectos');
     }
-    ls -l: function(what) {
-        this.echo("tampoco te flipes, que no he programado tanto");
-    }
-}, {
+},{
     greetings: 'Esta terminal no funciona bien, pero bueno, poco a poco.'
 });
 </script>
